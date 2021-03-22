@@ -1,0 +1,15 @@
+short data type uses 2 bytes of storage
+int: 4
+long: 8, you have to add the suffix "L" at the end
+float: 4, rounded to approximately 7 digits. Need to add "F"
+double, precision 15 digits
+
+double is default and is recommended, unless memory is a concern
+
+char: used to store single Unicode characters like "@", "A", "p". 2 bytes of memory
+
+converting data types is knows as type casting. If we want to convert a smaller type into a larger one we dont need to do anything specifically. It's called widening primitive conversion... the opposite is called narrowing conversion. Can result in loss of data.
+
+
+Arrays and Strings
+
